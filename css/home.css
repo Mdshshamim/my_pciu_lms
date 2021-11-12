@@ -1,0 +1,101 @@
+body
+{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 0 auto;
+	height: 0 auto;
+}
+
+.main
+{
+	margin: auto;
+	width: auto;
+	height: auto;
+	background: url(../pic/mainbg.jpg);
+}
+
+.header
+{
+	border: 1px solid darkblue;
+	margin: 5px;
+	padding: 5px;
+	width: 0 auto;
+	height: 0 auto;
+}
+
+.navigation
+{
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 5px;
+	width: 0 auto;
+	height: 40px;
+	background: url(../pic/nav.png);
+}
+
+.content
+{
+	border: 1px solid gray;
+	margin: 5px;
+	padding: 0px;
+	width: 0 auto;
+	height: 0 auto;
+	background-image: url(../pic/lib.jpg);
+	box-shadow: 20px 10px 18px red;
+	
+	animation-name: dash-1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes
+dash-1
+{
+	30%
+	{
+		box-shadow: 20px 10px 18px yellow;
+	}
+	30%
+	{
+		box-shadow: 20px 10px 18px red;
+	}
+	30%
+	{
+		box-shadow: 20px 10px 18px blue;
+	}
+}
+
+.errorMsg
+{
+	border: none;
+	float: center;
+	text-align: center;
+	padding: 5px 14px;
+	margin-top: 20px;
+	font-size: 18px;
+	background: #ff9999;
+	color: red;
+}
+
+
+.footer
+{
+	border: 1px solid gray;
+	margin: 5px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 0 auto;
+	height: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	background: #0F0E32;
+	color: white;
+	margin-top: 35px;
+}
+
+/*
+.container
+{
+	width: auto;
+}
+*/

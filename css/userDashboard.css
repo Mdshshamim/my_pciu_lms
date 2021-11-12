@@ -1,0 +1,25 @@
+.containerDashboard
+{
+	border: none;
+	width: 0 auto;
+	height: 200px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.tile
+{
+	border: 3px solid #f61a00;
+	width: 220px;
+	height: 50px;
+	float: left;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	background: #600011;
+	text-align: center;
+	color: white;
+	box-shadow: 12px 12px 12px rgba(0,0,0,1.00);
+}

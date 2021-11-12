@@ -1,0 +1,25 @@
+.title
+{
+	border: none;
+	padding: 5px 14px;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+	color: white;
+	background-color: #0b2471;
+	border-bottom: 3px solid #021FAA;
+}
+
+.errorMsg
+{
+	border: none;
+	float: center;
+	text-align: center;
+	padding: 5px 14px;
+	font-size: 25px;
+	background: #0a9924;
+	color: White;
+	margin-bottom: 20px;
+	margin-bottom: 30px;
+	margin-top: -20px;
+}

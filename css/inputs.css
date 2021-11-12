@@ -1,0 +1,33 @@
+input[type="text"], input[type="email"], input[type="password"]
+{
+	width: 280px;
+	height: 40px;
+	font-size: 15px;
+	border: none;
+	text-align: 20px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+
+
+input[type="submit"]
+{
+	padding: 15px 30px;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: #0A144D;
+	border-bottom: 4px solid #00158C;
+}
+
+
+input[type="submit"]:hover
+{
+	background-color: #630001;
+	border-bottom: 4px solid #BB0001;
+}

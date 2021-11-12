@@ -1,0 +1,28 @@
+.inputs
+{
+	border: none;
+	height: 50px;
+	padding: 0px;
+	padding-left: 10px;
+	margin: 10px;
+	margin-left: 95px; 
+}
+
+.inputs label
+{
+	color: White;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+input[type="file"]
+{
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+	border: none;
+	margin: 5px;
+	margin-left: 0px;
+	border-radius: 4px;
+	background-color: #fff;
+}
